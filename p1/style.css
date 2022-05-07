@@ -1,0 +1,12 @@
+h2 {color: blue}
+
+span {font-weight: bold}
+span {font-size: 14pt}
+
+table {font-weight: bold}      
+table {background-color: lightgrey}
+table {font-size: 36pt}
+table, th, td {border: 1px solid black}
+td, th {padding: 15px}
+
+img {border: 2px solid black}

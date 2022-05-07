@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Number Analyzer</title>
+        
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet" />
+     <!-- Javascript-->
+     <script src="script.js"></script>
+</head>
+<body>
+    <!--Intro-->
+    <header><h1>Number Analyzer</h1></header>
+    <p>Welcome to the number Analyzer.</p>
+    <p>Enter three numbers into the boxes to calculate the maximum, minimum, average, median, and range:</p>
+    
+    <!--Inputs-->
+    <form id="form1">
+        <label for="first">First Number:</label>
+        <input type="number" id="first" name="first">
+        <label for="second">Second Number:</label>
+        <input type="number" id="second" name="second">   
+        <label for="third">Third Number:</label>
+        <input type="number" id="third" name="third">
+        <input type="button" id="calculate" name="calculate" value="Calculate">
+    </form>
+    
+    <!--Results-->
+    <div id="results">
+    <p>Listed below are your results:</p>
+    <p>The maximum value is:<span id="maximum"></span></p>
+    <p>The minimum value is:<span id="minimum"></span></p>
+    <p>The average value is:<span id="average"></span></p>
+    <p>The median value is:<span id="median"></span></p>
+    <p>The range is:<span id="range"></span></p>
+    </div>
+    
+
+</body>
+</html>
