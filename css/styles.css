@@ -437,6 +437,11 @@ mark,
   background-color: #fcf8e3;
 }
 
+.list-item {
+  font-size: 18px; /* Adjust as needed */
+  padding-left: 0;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
